@@ -18,6 +18,7 @@ public abstract class Ast {
         public Source(List<Field> fields, List<Method> methods) {
             this.fields = fields;
             this.methods = methods;
+            // hi there
         }
 
         public List<Field> getFields() {
